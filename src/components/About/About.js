@@ -1,10 +1,10 @@
 import {View, StyleSheet, Text} from 'react-native'
 
-const Home = () => {
+const About = () => {
     return (
         <View style={styles.container}>
-            <View style={styles.home}>
-                <Text>Hello, Home </Text>
+            <View style={styles.about}>
+                <Text>Hello, About </Text>
             </View>
         </View>
     )
@@ -14,10 +14,10 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
     },
-    home: {
+    about: {
         flex: 1,
         padding: 5
     }
 });
 
-export default Home;
+export default About;
